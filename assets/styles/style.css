@@ -1,0 +1,33 @@
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container1{
+            display: flex;
+            gap: 30px;
+            background-color: #423189;
+            margin: 0 50px;
+}
+.container2{
+    display: flex;
+    gap: 30px;
+}
+
+body{
+    font-family: 'Satoshi', sans-serif;
+}
+.section1__button:hover{
+    transform: scale(2);
+}
+.section1__button:active{
+    background-color: greenyellow;
+    transform: scale(1);
+}
+input:invalid {
+    border-color: red;
+}
+.section3__button:focus{
+    outline: 2px solid blue;
+}

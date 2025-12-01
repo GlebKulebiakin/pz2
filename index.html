@@ -4,20 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Магазин</title>
-    <style>
-        
-
-      .container_1{
-            display: flex;
-            gap: 30px;
-            background-color: #423189;
-            margin: 0 50px;
-        }
-        .container_2{
-            display: flex;
-            gap: 30px;
-        }
-    </style>
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -28,28 +16,28 @@
         <hr> </hr>
         <table>
             <tr>
-                <td><a href = "#">Plant pots</a></td>
-                <td><a href = "#">Ceramics</a></td>
-                <td><a href = "#">Tables</a></td>
-                <td><a href = "#">Chairs</a></td>
-                <td><a href = "#">Crockery</a></td>
-                <td><a href = "#">Tableware</a></td>
-                <td><a href = "#">Cutlery</a></td>
+                <td><a href = "#1">Plant pots</a></td>
+                <td><a href = "#2">Ceramics</a></td>
+                <td><a href = "#3">Tables</a></td>
+                <td><a href = "#4">Chairs</a></td>
+                <td><a href = "#5">Crockery</a></td>
+                <td><a href = "#6">Tableware</a></td>
+                <td><a href = "#6">Cutlery</a></td>
             </tr>
         </table>
     </header>
     <main>
-        <section>
-            <div class="container_1">
+        <section id = "1" >
+            <div class="container1">
                 <div style="padding: 20px;">
                 <h2>The furniture brand for the<br />future, with timeless designs</h2>
-                <button>View collection</button>
+                <button class="section1__button">View collection</button>
                 <p style="margin-bottom: auto;">A&nbsp;new era in&nbsp;eco friendly furniture with Avelon, the French luxury retail brand<br />with nice fonts, tasteful colors and a&nbsp;beautiful way to&nbsp;display things digitally<br />using modern web technologies.</p> 
                 </div>
                 <img style="margin-left: auto;" src = "assets/img/Right Image.png">
             </div>
         </section>
-        <section>
+        <section id = "2">
             <h3>What makes our brand different</h3>
             <table>
                 <tr>
@@ -81,7 +69,7 @@
                 </tr>
             </table>
         </section>
-        <section>
+        <section id = "3">
             <h3>New ceramics</h3>
             <table>
                 <tr>
@@ -115,9 +103,9 @@
                     <td width="30"></td>
                 </tr>
             </table>
-            <button>View collection</button>
+            <button class = "section3__button">View collection</button>
         </section>
-        <section>
+        <section id = "4">
             <h3>Our popular products</h3>
             <table>
                 <tr>
@@ -147,18 +135,18 @@
             </table>
             <button>View collection</button>
         </section>
-        <section>
+        <section id = "5">
             <h3>Join the club and get the benefits</h3>
             <p>Sign up for our newsletter and receive exclusive offers on new<br>ranges, sales, pop up stores and more</p>
             <table>
                 <tr>
-                    <td><input type="text" placeholder="your@email.com"></td>
+                    <td><input type="email" placeholder="your@email.com"></td>
                     <td><button >Sign up</button></td>
                 </tr>
             </table>
         </section>
-        <section>
-            <div class="container_2">
+        <section id = "6">
+            <div class="container2">
                 <div>
                 <h4>From a&nbsp;studio in&nbsp;London to&nbsp;a&nbsp;global brand with<br />over 400 outlets</h4>
                 <p>When we&nbsp;started Avion, the idea was simple. Make high quality furniture<br />affordable and available for the mass market.</p>
@@ -190,7 +178,7 @@
                 <td> 
                     <table>
                         <tr>
-                            <td><input type="text" placeholder="your@email.com"></td>
+                            <td><input type="email" placeholder="your@email.com"></td>
                             <td><button >Sign up</button></td>
                         </tr>
                     </table>
