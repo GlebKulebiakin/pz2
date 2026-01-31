@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Магазин</title>
     <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="stylesheet" href="assets/styles/mobile.css">
     <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -14,6 +15,38 @@
         <img  src = "assets/icons/Shopping--cart.png">
         <img  src = "assets/icons/User--avatar.png">
         <hr class = "line-top"> </hr>
+
+        <!-- pz5 -->
+        <button class="menu-toggle" id="menuToggle" aria-label="Открыть меню" aria-expanded="false">
+            <span class="menu-toggle__line"></span>
+            <span class="menu-toggle__line"></span>
+            <span class="menu-toggle__line"></span>
+        </button>
+
+        <nav class="nav" id="mainNav">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#" class="nav__link active">Главная</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">О проекте</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">Услуги</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">Портфолио</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+
+        <button class="btn btn--primary header__cta">Заказать</button>
+        <!-- pz5 -->
+
+
         <nav>
             <ul class="nav__list">
                 <li>
@@ -80,18 +113,18 @@
 
         <section id = "3" class = "content-grid-section-3">
             <div class ="section-3__text-top section-3__text">New ceramics</div>
-            <div><img src="assets/img/Photo.png"></div>
-            <div><img src="assets/img/Photo.png"></div>
-            <div><img src="assets/img/Photo (1).png"></div>
-            <div><img src="assets/img/Photo (2).png"></div>
-            <div class = "section-3__text">The Dandy chair</div>
-            <div class = "section-3__text">Rustic Vase Set</div>
-            <div class = "section-3__text">The Silky Vase</div>
-            <div class = "section-3__text">The Lucy Lamp</div>
-            <div class = "section-3__text">£250</div>
-            <div class = "section-3__text">£155</div>
-            <div class = "section-3__text">£125</div>
-            <div class = "section-3__text">£399</div>
+            <div class = "section-3__item-1"><img src="assets/img/Photo.png"></div>
+            <div class = "section-3__item-2"><img src="assets/img/Photo.png"></div>
+            <div class = "section-3__item-3"><img src="assets/img/Photo (1).png"></div>
+            <div class = "section-3__item-4"><img src="assets/img/Photo (2).png"></div>
+            <div class = "section-3__item-5 section-3__text">The Dandy chair</div>
+            <div class = "section-3__item-6 section-3__text">Rustic Vase Set</div>
+            <div class = "section-3__item-7 section-3__text">The Silky Vase</div>
+            <div class = "section-3__item-8 section-3__text">The Lucy Lamp</div>
+            <div class = "section-3__item-9 section-3__text">£250</div>
+            <div class = "section-3__item-10 section-3__text">£155</div>
+            <div class = "section-3__item-11 section-3__text">£125</div>
+            <div class = "section-3__item-12 section-3__text">£399</div>
             <button class = "section-3__button">View collection</button>
         </section>
 
@@ -161,6 +194,10 @@
         </div>
         <hr class = "line-bottom"> </hr>
         <p class ="footer__text">Copyright 2022 Avion LTD</p>
-    </footer>    
+    </footer>
+    <script src="scripts/menu.js"></script>
+    <button class="scroll-top" id="scrollTop" aria-label="Наверх">
+        ↑
+    </button>    
 </body>
 </html>
